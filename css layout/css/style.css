@@ -1,0 +1,256 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #747474;
+}
+
+nav {
+  height: 70px;
+  max-width: 1015px;
+}
+
+nav div {
+  display: inline-block;
+}
+
+nav a {
+  text-decoration: none;
+  color: #ababab;
+  font-size: 15px;
+}
+
+nav a:hover {
+  color: #00b39b;
+}
+
+.active {
+  color: #00b39b;
+}
+.logo {
+  float: left;
+  margin-top: 15px;
+}
+.links {
+  float: right;
+  margin-top: 25px;
+}
+
+.links a {
+  margin-right: 15px;
+}
+
+.intro h1 {
+  color: #00b39b;
+  font-size: 2.125rem;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  letter-spacing: 0.3px;
+}
+
+.intro h1 {
+  margin-bottom: 60px;
+}
+
+.intro img {
+  margin-top: 100px;
+  margin-bottom: 30px;
+}
+.para-cont {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.para-cont div {
+  width: 480px;
+  text-align: left;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.para-cont div p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  margin: 0.8em 0;
+  line-height: 1.75;
+  font-weight: 400;
+}
+@media screen and (max-width: 500px) {
+  .para-cont {
+    display: block;
+  }
+}
+
+.navs {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.navs div {
+  width: 480px;
+  text-align: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: #00ccb1;
+  border-radius: 15px;
+}
+.navs div p {
+  color: white;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  margin: 0.8em 0;
+  line-height: 1.75;
+  font-weight: 400;
+  font-size: 1.625em;
+  margin-top: 0.3em;
+  margin-left: 20px;
+  margin-right: 45px;
+}
+
+.navs div h3 {
+  font-size: 0.875em;
+  font-weight: 400;
+  margin: 0;
+  color: hsla(0, 0%, 100%, 0.7);
+  margin-left: 20px;
+  margin-top: 40px;
+}
+.navs div select {
+  width: 190px;
+  height: 42px;
+  border-radius: 5px;
+  border-color: white;
+  margin-left: 10px;
+  text-align: center;
+  padding-left: 10px;
+}
+.align {
+  display: inline;
+}
+.titl {
+  width: 320px;
+  text-align: left;
+  padding: 5px;
+}
+
+.titl p {
+  font-size: 26px;
+  color: #00b39b;
+}
+.sites {
+  display: flex;
+  max-width: 1015px;
+  padding-top: 50px;
+  margin: 0 auto;
+}
+
+.linkk a svg {
+  width: 121px;
+  margin-right: 40px;
+  text-align: left;
+}
+.linkk a {
+  fill: #747474;
+  transition: 0.4s;
+}
+
+.linkk a:hover {
+  fill: #00b39b;
+  transition: 0.4s;
+}
+@media screen and (max-width: 640px) {
+  .navs,
+  .sites {
+    display: block;
+  }
+}
+.cont-mid {
+  background: #e5faf8;
+  background-image: linear-gradient(
+    -45deg,
+    rgba(0, 204, 177, 0.01) 5%,
+    rgba(61, 199, 223, 0.1)
+  );
+  overflow: hidden;
+  display: flex;
+}
+.left-part {
+  margin: 20px 0 30px 180px;
+  max-width: 400px;
+  min-width: 300px;
+}
+.left-part h1 {
+  margin-bottom: 20px;
+}
+.articles {
+  width: 30%;
+  height: 30%;
+  background-color: black;
+}
+#millions {
+  margin: 15px;
+  padding: 55px;
+  max-width: 500px;
+}
+.divkbira {
+  display: flex;
+  justify-content: center;
+}
+#millions h1 {
+  color: #00b39b;
+  padding-bottom: 30px;
+  padding-top: 30px;
+  text-align: center;
+}
+#millions p {
+  font-size: 15px;
+  text-align: center;
+}
+.aaa{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 2% 10%;
+}
+.card {
+  width: 30%;
+  justify-content: center;
+  border-radius: 2%;
+  border: 1px solid #ddd;
+  margin-bottom: 4%;
+  margin: 10px;
+  transition: 0.2s;
+}
+.card img {
+  border-radius: 2% 2% 0 0;
+  width: 100%;
+}
+
+.card div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5%;
+}
+.card div a {
+  padding: 4%;
+  background-color: #3d83df;
+  text-decoration: none;
+  color: white;
+  border-radius: 5px;
+  font-size: 12px;
+}
+.card:hover {
+  box-shadow: 10px 5px 5px #ddd;
+}
